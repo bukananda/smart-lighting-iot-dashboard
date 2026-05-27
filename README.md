@@ -1,11 +1,8 @@
-Berikut adalah draf kode `README.md` yang dirancang agar terlihat sangat profesional, terstruktur, dan menarik. Berkas ini sudah disesuaikan dengan arsitektur *decoupled* (Frontend, Backend, Hardware) yang ideal untuk standar perlombaan besar seperti GEMASTIK.
-
-Kamu tinggal menyalin seluruh kode di dalam kotak bawah ini dan menempelkannya ke file `README.md` proyekmu:
-
-```markdown
 # 💡 LuminaNode: Smart IoT Lighting & Emergency Dashboard
 [![Tech Stack](https://img.shields.io/badge/Stack-Full--Stack%20IoT-orange.svg)](#-tech-stack)
 [![Architecture](https://img.shields.io/badge/Architecture-Decoupled%20System-green.svg)](#-arsitektur-sistem)
+
+![Tampilan Dashboard](./assets/gambar-dashboard.jpeg)
 
 **LuminaNode** adalah sistem purwarupa *Smart Lighting* berbasis IoT komprehensif yang mengintegrasikan pengendalian lampu jarak jauh (*controlling*), pemantauan intensitas cahaya secara *real-time* (*monitoring*), serta sistem mitigasi darurat kebakaran otomatis. 
 
@@ -37,9 +34,12 @@ Aliran data sistem dirancang secara terstruktur melewati 4 pos utama untuk menja
 [ ESP32 Microcontroller ] 🔌 (Hardware + Sensors)
 
 ```
+---
+## 📊 Alur Kerja Sistem (Flowchart)
+
+![Tampilan Flowchart](./assets/flowchart-iot.jpeg)
 
 ---
-
 ## 🛠️ Tech Stack
 
 ### Frontend (User Interface)
@@ -130,26 +130,18 @@ Buka browser Anda di `http://localhost:5173` untuk melihat dashboard utama.
 2. Hubungkan ESP32 menggunakan kabel USB data.
 3. Klik tombol **Upload (→)** pada *status bar* bawah PlatformIO.
 4. Sambungkan Wi-Fi laptop Anda ke *Access Point* yang dipancarkan oleh ESP32 (SSID: `Dashboard_IoT_Mandiri`).
-
+`
 ---
 
-## 👥 Kontributor & Pengembang
+## 👥 Anggota Kelompok
 
-* **Nama Anda** - *Hardware Specialist & Firmware Engineer* - [@username_kamu](https://www.google.com/search?q=https://github.com/username_kamu)
-* **Nama Teman Tim** - *Fullstack Web Developer* - [@username_teman](https://www.google.com/search?q=https://github.com/username_teman)
+* **Mohammad Najmutstsaqib** - [@bukananda](https://www.google.com/search?q=https://github.com/bukananda)
+* **Raden Bagus Mohammad Galih Eka Laksita** [@username_teman](https://www.google.com/search?q=https://github.com/username_teman)
+* **Fajar Asyraf R.** [@username_teman](https://www.google.com/search?q=https://github.com/username_teman)
+* **Dimas Anggiat** [@username_teman](https://www.google.com/search?q=https://github.com/username_teman)
 
 ---
 
 ## 📄 Lisensi
 
 Proyek ini dilisensikan di bawah **MIT License** - lihat berkas [LICENSE](https://www.google.com/search?q=LICENSE) untuk detail lebih lanjut.
-
-```
-
----
-
-### 💡 Tips Tambahan untuk Membuatnya Lebih Menarik:
-1. **Tambahkan Screenshot:** Jika aplikasimu sudah berjalan, ambil *screenshot* tampilannya yang berlatar belakang gelap, simpan di dalam folder proyek, lalu panggil di bawah judul dengan tag `![Dashboard Preview](./screenshot-dashboard.png)`. Juri sangat menyukai visualisasi awal.
-2. **Badge Tambahan:** Kamu bisa mengganti tulisan `username_kamu` di bagian bawah agar tautan menuju ke profil GitHub aslimu, yang akan meningkatkan nilai profesionalisme tim di mata juri GEMASTIK.
-
-```
