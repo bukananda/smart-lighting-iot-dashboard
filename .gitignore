@@ -1,0 +1,9 @@
+# Mengabaikan folder dependency Node.js dan React
+node_modules/
+dist/
+.env
+
+# Mengabaikan file compile hardware PlatformIO / Arduino
+.pio/
+.vscode/
+*.local

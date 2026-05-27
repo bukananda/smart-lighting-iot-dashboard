@@ -1,0 +1,8 @@
+/* Menghilangkan margin bawaan browser dan mengunci warna latar belakang paling dasar */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Mengikuti warna dasar hitam dashboard */
+  width: 100%;
+  min-height: 100vh;
+}
